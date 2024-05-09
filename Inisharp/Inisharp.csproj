@@ -16,6 +16,7 @@
     <FileVersion>0.0.1</FileVersion>
     <Version>0.0.2</Version>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>ini</PackageTags>
   </PropertyGroup>
 	
 </Project>
