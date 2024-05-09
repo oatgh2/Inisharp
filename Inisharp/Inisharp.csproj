@@ -7,6 +7,15 @@
     <PackageId>Ini_Sharp</PackageId>
     <Description>This is a package to manipule INI archives.</Description>
     <Copyright>oatgh</Copyright>
+    <Authors>oatgh</Authors>
+    <Company />
+    <PackageProjectUrl>https://github.com/oatgh2/Inisharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/oatgh2/Inisharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>0.0.1</AssemblyVersion>
+    <FileVersion>0.0.1</FileVersion>
+    <Version>0.0.1</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
-
+	
 </Project>
