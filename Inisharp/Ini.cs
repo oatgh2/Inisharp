@@ -20,10 +20,10 @@ namespace Inisharp.Ini
         throw new FileNotFoundException(string.Format("{0} not found", _iniPath));
     }
 
-    public string ReadValue(string section, string key, string value)
+    public string ReadValue(string section, string key)
     {
       StringBuilder temp = new StringBuilder(0xff);
-      int i = Api.GetPrivateProfileString(section, key, value, temp, 0xff, this._iniPath);
+      int i = Api.GetPrivateProfileString(section, key, "", temp, 0xff, this._iniPath);
       return temp.ToString();
     }
 
